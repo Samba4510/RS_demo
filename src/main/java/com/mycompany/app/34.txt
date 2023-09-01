@@ -1,0 +1,9 @@
+mvn token:
+      sqp_1fec57104339c7b4548fe1184468c6fc0026406f
+mvn code:
+          
+mvn clean verify sonar:sonar 
+  -Dsonar.projectKey=LM10_demo2 
+  -Dsonar.projectName='LM10_demo2' 
+  -Dsonar.host.url=http://localhost:9099 
+  -Dsonar.token=sqp_1fec57104339c7b4548fe1184468c6fc0026406f
